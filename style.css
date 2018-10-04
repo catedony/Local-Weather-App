@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@keyframes paint {
+  to {
+    background-color: #FF9900;
+    border-color: #FF9900;
+  }
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Tajawal', sans-serif;
+  color: white;
+  background-color: #689CD2;
+}
+.header {
+  padding: 3% 5%;
+  background-color: #141313;
+}
+blockquote {
+  font-family: 'Courgette', cursive;
+  font-size: 2em;
+  font-weight: lighter;
+  border: none;
+  background-color: inherit;
+  margin: 0;
+}
+.location {
+  text-align: center;
+}
+.temp-wrap {
+  display: table;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+.temp {
+  display: table-row;
+}
+blockquote footer {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 0.6em;
+  color: #A49D89;
+  
+}
+.main {
+  border: 3px solid #141313;
+  border-top: none;
+  font-size: 2.6em;
+  font-weight: 600;
+  color: #141313;
+  border-radius: 0 0 10px 10px;
+  padding: 1% 0;
+  text-align: center;
+  background-color: white;
+}
+.degrees {
+  display: table-cell;
+  text-align: right;
+  padding-right: 5%;
+  width: 50%;
+}
+.button-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.buttons {
+  display: table;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+.button {
+  display: table-cell;
+  border: 2px solid #141313;
+  box-sizing: border-box;
+  font-size: 0.5em;
+  width: 20%;
+  height: 50%;
+  color: black;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.button:hover {
+  background-color: #FF9900;
+    border-color: #FF9900;
+}
+.button:hover,
+.button:focus {
+  color: black;
+  text-decoration: none;
+}
+.active {
+  background-color: #141313;
+  color: white;
+}
+.active:hover,
+.active:focus {
+  background-color: #141313;
+  border-color: #141313;
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+
+.footer {
+  color: #04376C;
+}
+
+/*'drizzle' — моросящий дождь
+'clouds' 
+'rain'
+'snow'
+'clear'
+'thunderstom'
+*/
