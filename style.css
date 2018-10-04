@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   font-family: 'Tajawal', sans-serif;
   color: white;
-  background-color: #689CD2;
+  background-color: rgb(183, 201, 221);
 }
 .header {
   padding: 3% 5%;
@@ -106,7 +106,7 @@ blockquote footer {
 }
 
 .footer {
-  color: #04376C;
+  color: white;
 }
 
 /*'drizzle' — моросящий дождь
